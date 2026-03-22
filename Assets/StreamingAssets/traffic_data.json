@@ -1,0 +1,124 @@
+{
+  "predicted_status": [
+    {
+      "estimated_time": 9000,
+      "predictions": {
+        "vehicleDensity": 0.6,
+        "averageSpeed": 50,
+        "weather": "clouded"
+      }
+    },
+    {
+      "estimated_time": 12000,
+      "predictions": {
+        "vehicleDensity": 0.7,
+        "averageSpeed": 60,
+        "weather": "foggy"
+      }
+    },
+    {
+      "estimated_time": 8000,
+      "predictions": {
+        "vehicleDensity": 0.4,
+        "averageSpeed": 35,
+        "weather": "sunny"
+      }
+    },
+    {
+      "estimated_time": 16000,
+      "predictions": {
+        "vehicleDensity": 0.8,
+        "averageSpeed": 70,
+        "weather": "light rain"
+      }
+    },
+    {
+      "estimated_time": 18000,
+      "predictions": {
+        "vehicleDensity": 0.3,
+        "averageSpeed": 25,
+        "weather": "heavy rain"
+      }
+    },
+    {
+      "estimated_time": 10000,
+      "predictions": {
+        "vehicleDensity": 0.5,
+        "averageSpeed": 40,
+        "weather": "sunny"
+      }
+    },
+    {
+      "estimated_time": 13000,
+      "predictions": {
+        "vehicleDensity": 0.6,
+        "averageSpeed": 55,
+        "weather": "clouded"
+      }
+    },
+    {
+      "estimated_time": 11000,
+      "predictions": {
+        "vehicleDensity": 0.4,
+        "averageSpeed": 30,
+        "weather": "foggy"
+      }
+    },
+    {
+      "estimated_time": 17000,
+      "predictions": {
+        "vehicleDensity": 0.7,
+        "averageSpeed": 65,
+        "weather": "light rain"
+      }
+    },
+    {
+      "estimated_time": 20000,
+      "predictions": {
+        "vehicleDensity": 0.2,
+        "averageSpeed": 20,
+        "weather": "heavy rain"
+      }
+    },
+   {
+      "estimated_time": 22000,
+      "predictions": {
+        "vehicleDensity": 0.9,
+        "averageSpeed": 80,
+        "weather": "heavy rain"
+      }
+    },
+    {
+      "estimated_time": 14000,
+      "predictions": {
+        "vehicleDensity": 0.75,
+        "averageSpeed": 65,
+        "weather": "clouded"
+      }
+    },
+    {
+      "estimated_time": 15000,
+      "predictions": {
+        "vehicleDensity": 0.85,
+        "averageSpeed": 70,
+        "weather": "foggy"
+      }
+    },
+    {
+      "estimated_time": 19000,
+      "predictions": {
+        "vehicleDensity": 0.6,
+        "averageSpeed": 50,
+        "weather": "heavy rain"
+      }
+    },
+    {
+      "estimated_time": 9000,
+      "predictions": {
+        "vehicleDensity": 0.3,
+        "averageSpeed": 35,
+        "weather": "sunny"
+      }
+    }
+  ]
+}

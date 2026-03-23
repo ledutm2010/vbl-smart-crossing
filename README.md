@@ -2,6 +2,8 @@
 
 Simulação de travessia de pedestre com tráfego e clima dinâmicos baseados em dados de um mock local.
 
+![Simulação de Tráfego](traffic_simulation.png)
+
 ---
 
 ## Como Executar?

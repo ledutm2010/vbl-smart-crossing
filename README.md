@@ -8,7 +8,7 @@ Simulação de travessia de pedestre com tráfego e clima dinâmicos baseados em
 
 ## Como Executar?
 
-1. Abra o projeto na Unity (2021+)
+1. Abra o projeto na Unity
 2. Abra a cena: Assets/Scenes/MainScene
 3. Clique em Play  
 4. Use as **setas do teclado** para mover o jogador
@@ -19,7 +19,6 @@ Simulação de travessia de pedestre com tráfego e clima dinâmicos baseados em
 
 Arquivo local utilizado como fonte de dados: Assets/StreamingAssets/traffic_data.json
 
-- `current_status`: estado inicial  
 - `predicted_status`: mudanças futuras
 
 ---
@@ -88,5 +87,5 @@ Scripts/
 
 ## Melhorias Futuras
 
-- Implementação de interfaces (SOLID) para desacoplamento entre serviços (API, Spawner e Player)
+- Implementação de interfaces (SOLID) para desacoplamento entre serviços
 - Integração com API real via HTTP (substituindo o mock local)

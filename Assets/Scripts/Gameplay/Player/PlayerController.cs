@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        // Captura input diretamente (setas e WASD)
+        // Captura input do teclado
         moveInput = Vector2.zero;
 
         if (Keyboard.current.leftArrowKey.isPressed) moveInput.x = -1;

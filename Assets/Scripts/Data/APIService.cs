@@ -3,7 +3,7 @@ using System.IO;
 
 public class APIService : MonoBehaviour
 {
-    public string jsonFileName = "traffic_data.json"; // Coloque na pasta StreamingAssets
+    public string jsonFileName = "traffic_data.json"; 
 
     public TrafficResponse GetTrafficData()
     {

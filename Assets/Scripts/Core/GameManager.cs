@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     private int level = 1;
     private float levelTimer;
 
-    private Status[] levelStates; // ARRAY DE ESTADOS
+    private Status[] levelStates; 
     private int currentIndex = 0;
 
     void Start()
@@ -81,7 +81,7 @@ public class GameManager : MonoBehaviour
             levelTimer = 10f;
         }
 
-        // Agenda predições (timeline completa)
+        // Agenda predições para os próximos níveis
         scheduler.SchedulePredictions(currentData.predicted_status);
 
         StartCoroutine(LevelTimerCoroutine());
@@ -106,7 +106,7 @@ public class GameManager : MonoBehaviour
         StopAllCoroutines();
         Time.timeScale = 1f;
 
-        currentIndex = (currentIndex + 1) % levelStates.Length; // LOOP CIRCULAR
+        currentIndex = (currentIndex + 1) % levelStates.Length; 
         level++;
 
         LoadLevel();

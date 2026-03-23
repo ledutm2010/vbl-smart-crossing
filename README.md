@@ -1,4 +1,4 @@
-# Traffic Simulation - Unity Challenge
+# Traffic Simulation
 
 Simulação de travessia de pedestre com tráfego e clima dinâmicos baseados em dados de um mock local.
 
@@ -8,7 +8,7 @@ Simulação de travessia de pedestre com tráfego e clima dinâmicos baseados em
 
 1. Abra o projeto na Unity (2021+)
 2. Abra a cena: Assets/Scenes/MainScene
-3. Clique em ▶ Play  
+3. Clique em Play  
 4. Use as **setas do teclado** para mover o jogador
 
 ---
@@ -22,7 +22,7 @@ Arquivo local utilizado como fonte de dados: Assets/StreamingAssets/traffic_data
 
 ---
 
-##️ Lógica do Jogo
+# Lógica do Jogo
 
 - **Spawn de veículos:**  
   `intervalo = 1 / vehicleDensity`
@@ -53,18 +53,38 @@ Arquivo local utilizado como fonte de dados: Assets/StreamingAssets/traffic_data
 
 ## Estrutura
 
+```text
 Scripts/
 ├── Core/
+|  └── GameManager.cs
+|
 ├── Data/
+|  ├── APIService.cs
+|  └── TrafficData.cs
+|
 ├── Gameplay/
+|  ├── Environment/
+|  |  └── FinishZone.cs
+|  |
+|  ├── Player/
+|  |  ├── PlayerCollision.cs
+|  |  └── PlayerController.cs
+|  |
+|  └── Traffic/
+|    ├── TrafficSpawner.cs
+|    └── Vehicle.cs
+|
 ├── Systems/
+|  └── PredictionScheduler.cs
+|
 └── UI/
+  ├── GameOverUI.cs
+  └── HUDController.cs
+```
 
 ---
 
 ## Melhorias Futuras
 
-- Interfaces
-- Object Pooling
-- API real (HTTP)
-
+- Implementação de interfaces (SOLID) para desacoplamento entre serviços (API, Spawner e Player)
+- Integração com API real via HTTP (substituindo o mock local)

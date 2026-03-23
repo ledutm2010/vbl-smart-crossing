@@ -8,7 +8,7 @@ public class Vehicle : MonoBehaviour
     {
         transform.Translate(Vector3.right * speed * Time.deltaTime);
 
-        // Destrói veículo se sair da tela
+        // Destrói veículo ao sair da tela
         if (transform.position.x > 20f)
         {
             Destroy(gameObject);

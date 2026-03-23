@@ -4,7 +4,7 @@ public class TrafficSpawner : MonoBehaviour
 {
     [Header("Prefab e SpawnPoints")]
     public GameObject vehiclePrefab;
-    public Transform[] spawnPoints; // Arraste SpawnPoint1,2,3 aqui no Inspector
+    public Transform[] spawnPoints; 
 
     [Header("Configurações internas")]
     private float spawnInterval = 1f;
